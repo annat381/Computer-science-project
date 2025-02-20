@@ -1,5 +1,5 @@
 #include "submarine.h"
 
-void Bird::makeSound() {
+void submarine::makeSound() {
     std::cout << "BOOOOOOOOOOOOOM!\n";
 }
