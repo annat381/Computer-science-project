@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-class ships1 {
+class ship {
 public:
     double speed;
     double length;
