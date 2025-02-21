@@ -3,10 +3,9 @@
 #include"mainship.h"
 #pragma once
 
-class tanker:  public ship {
-	public:	
-	
-	tanker(int capacity_){}
-	int capacity;
+class tanker : public ship
+{
+public:
+	double capacity;
     void makeSound();
 };
