@@ -9,7 +9,7 @@ public:
     double width;
     double displacement;
     int crew;
-    void makeSound(){
+   virtual void makeSound(){
         std::cout<<"is silent";
     }
 };
