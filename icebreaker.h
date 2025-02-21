@@ -1,15 +1,14 @@
 #include <iostream>
 #include <string>
 #include "mainship.h"
-#pragma once 
+#pragma once
 
 
 using namespace std;
 
 
-class icebreaker:  public ship {
-	public : 
-    int  capacity;
-    string type;
+class icebreaker:  public ship
+{
+public:
     void makeSound();
 };

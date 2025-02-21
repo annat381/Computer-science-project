@@ -1,20 +1,49 @@
 #include "mainship.h"
+#include "battleship.cpp"
+#include "battleship.h"
+#include "destroyer.cpp"
+#include "destroyer.h"
+#include "icebreaker.cpp"
 #include "icebreaker.h"
-#include "passenger.h"
-#include "submarine.h"
+#include "tanker.cpp"
 #include "tanker.h"
-#pragma once
+#include "containership.cpp"
+#include "containership.h"
+#include "passenger.cpp"
+#include "passenger.h"
+#include "submarine.cpp"
+#include "submarine.h"
+#include "carrier.cpp"
+#include "carrier.h"
+#include "fishingship.cpp"
+#include "fishingship.h"
 
-int main() {
-    icebreaker icebreaker_1;
-    tanker tanker_1;
-    submarine  submarine_1;
-    passenger passenger_1;
+int main()
+{
+    battleship s1;
+    s1.makeSound();
 
-    tanker_1.makeSound();
-    icebreaker_1.makeSound();
-    passenger_1.makeSound();
-    submarine_1.makeSound();
+    destroyer s2;
+    s2.makeSound();
 
-    return 0;
+    icebreaker s3;
+    s3.makeSound();
+
+    tanker s4;
+    s4.makeSound();
+
+    containership s5;
+    s5.makeSound();
+
+    passenger s6;
+    s6.makeSound();
+
+    submarine s7;
+    s7.makeSound();
+
+    carrier s8;
+    s8.makeSound();
+
+    fishingship s9;
+    s9.makeSound();
 }

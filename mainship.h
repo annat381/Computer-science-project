@@ -1,15 +1,14 @@
 #include <iostream>
 #include <string>
-#pragma once 
+#pragma once
 using namespace std;
-class ship {
+class ship
+{
 public:
     double speed;
     double length;
     double width;
     double displacement;
     int crew;
-    void makeSound(){
-        std::cout<<"is silent";
-    }
+    virtual void makeSound() {};
 };
