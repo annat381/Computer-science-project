@@ -2,5 +2,5 @@
 
 void containership::makeSound()
 {
-    std::cout << "Which sounds containerships make???\n";
+    std::cout << "\n\nPicture for containership needed.\n\n";
 }
