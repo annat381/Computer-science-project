@@ -2,5 +2,5 @@
 
 void fishingship::makeSound()
 {
-    std::cout << "Fish becomes mad from that bait.\n";
+    std::cout << "\n\nPictire for fishing ship needed.\n\n";
 }

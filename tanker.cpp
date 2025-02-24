@@ -2,5 +2,5 @@
 
 void tanker::makeSound()
 {
-    std::cout << "BOOOL!BOOL!\n";
+    std::cout << "\n\nPicture for tanker needed.\n\n";
 }

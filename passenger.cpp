@@ -1,5 +1,5 @@
 #include "passenger.h"
 
 void passenger::makeSound() {
-    std::cout << "TITANIC!\n";
+    std::cout << "\n\n        ___    ___    ___    ___            \n ______|  |___|  |___|  |___|  |__________\n | =  : : : : : : : : : : : : : : : : :  /\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n";
 }

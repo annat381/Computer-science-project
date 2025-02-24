@@ -2,5 +2,5 @@
 
 void destroyer::makeSound()
 {
-    std::cout << "Boom.\n";
+    std::cout << "\n\nWe have to add picture for destroyer.\n\n";
 }
